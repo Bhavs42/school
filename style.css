@@ -1,0 +1,72 @@
+h1 {
+   margin-right:-50px;
+ border-right: greenyellow;
+    color: rgb(251, 104, 6);
+
+}
+aboutme.html.h1{
+    color: gold
+}
+
+/* * {
+    border: solid;
+} */
+
+.header{
+    background-color: black;
+    display: flex;
+    justify-content: space-between;
+}
+
+.site-description{
+    display: flex;
+    flex-direction: column;
+    justify-content: first baseline;
+}
+
+.grid{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.footer{
+    display: flex;
+    justify-content: flex-end;
+}
+
+p,h2{
+    text-align: center;
+}
+.header{
+    text-align: center;
+}
+.line{
+   background-color: lightseagreen; 
+}
+.body{
+color:turquoise
+}
+
+a:link {
+    color:blue
+}
+a:visited{
+    color:greenyellow
+}
+.item{
+    position:relative;
+}
+.item p {
+    opacity:0
+}
+.item:hover p {
+opacity:1
+}
+.page{
+    background-color:rgb(221, 90, 3)
+   
+}
+.menu{
+    background-color:rgb(221, 90, 3) 
+}
